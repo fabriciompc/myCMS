@@ -1,4 +1,4 @@
-import { Roles } from '../../@types/roles';
+import { Role } from '@prisma/client';
 
 export class User {
   id: string;
@@ -7,5 +7,5 @@ export class User {
   email: string;
   avatar: string;
   password: string;
-  role: Roles;
+  role: Role;
 }
